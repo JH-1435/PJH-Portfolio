@@ -4058,6 +4058,7 @@ textarea.form-control-lg {
   flex-wrap: inherit;
   align-items: center;
   justify-content: space-between;
+  text-align: center;
 }
 .navbar-brand {
   padding-top: 0.3125rem;
@@ -11501,7 +11502,7 @@ section.resume-section .resume-section-content {
   color: #bd5d38;
 }
 .projects-last {
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 .text-center {
   text-align: center;
@@ -11611,6 +11612,8 @@ section.resume-section .resume-section-content {
   display: block;
   width: 100%;
   height: 100%;
+  max-width: 552px;
+  max-height: 514px;
   object-fit: cover;
 }
 /* Slide */
