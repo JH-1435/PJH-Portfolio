@@ -63,11 +63,19 @@
                         <br>
                         기술 |
                         <br>
-                        Back-end : Java 8, Spring 및 eGov Framework, SprignBoot 2.x, RESTful API 설계 및 구현
+                        Back-end : Java 8, Spring 및 eGov Framework, SprignBoot 2.x, Node.js (Express), REST API
                         <br>
                         Front-end : Javascript, CSS, HTML, jQuery, AJAX
                         <br>
-                        DevOps & Tools :  MySQL 5.x, Oracle, PostgreSQL, SVN, Git, GitHub
+                        DataBase : MySQL, Oracle, PostgreSQL
+                        <br>
+                        DevOps : Linux, Docker, Jenkins CI/CD, Kubernetes, Ansible
+                        <br>
+                        Cloud : AWS EC2, AWS RDS
+                        <br>
+                        Tools : SVN, Git, GitHub
+                        <br>
+                        
                     </p>
                     <div id="down" class="text-center">
                         <a href="#about"><i href="#about" class="fas fa-angle-double-down fa-8x"></i></a>
@@ -227,9 +235,9 @@
                             <div class="list-items-title">실무에서 사용</div>
                             <p>- Java, JSP, JSTL, XML</p>
                             <p>- SpringFramework, eGovFramework, MyBatis</p>
-                            <p>- Spring Boot, Spring MVC, RESTful API 설계 및 구현</p>
+                            <p>- Spring Boot, Spring MVC, REST API</p>
                             <p>- HTML, CSS, JavaScript, jQuery, AJAX</p>
-                            <p>- Oracle, postgreSQL</p>
+                            <p>- Oracle, postgreSQL, DBeaver</p>
                             <p>- Apache Maven, Apache Tomcat</p>
                             <p>- Eclipse</p>
                             <p>- SVN, Git, GitHub</p>
@@ -238,16 +246,17 @@
                         <div class="list-items">
                             <div class="list-items-title">개인프로젝트에서 사용</div>
                             <p>- Spring Security</p>
-                            <p>- MySQL</p>
-                            <p>- HeidiSQL</p>
+                            <p>- Linux</p>
+                            <p>- Docker, Jenkins CI/CD, Kubernetes, Ansible</p>
+                            <p>- Node.js (Express)</p>
+                            <p>- AWS EC2, AWS RDS</p>
+                            <p>- MySQL, HeidiSQL</p>
                             <p>- Visual Studio Code</p>
                         </div>
                         <div class="list-items">
                             <div class="list-items-title">현재 공부중</div>
-                            <p>- Linux</p>
-                            <p>- Docker, CI/CD</p>
                             <!-- 
-                            <p>- Node.js, Nest.js</p>
+                            <p>- Nest.js</p>
                             <p>- Scraping / Crawling</p> 
                             <p>- Python</p> 
                             -->
@@ -357,11 +366,12 @@
                     <ul class="fa-ul mb-0">
                         <li class="projects-li">
                             <strong>1. Hwicap</strong><br/>
-                            <span class="projects-span">2023.11 ~ 2024.02 <strong>(4개월)</strong> [개인 프로젝트]</span>
+                            <div class="projects-span">2023.11 ~ 2024.02 <strong>(4개월)</strong> [개인 프로젝트]</div>
+                            <div class="projects-span">2025.02 ~ 2025.05 <strong>(3개월)</strong> <strong>[프로젝트 개편]</strong></div>
                             <li class="projects-li-2">
                             <strong><i class="fas fa-check"></i> 주요 기능</strong>
-                            <p>- 소셜 로그인 기능</p>
-                            <p>- CSRF 토큰을 발급으로 보안강화</p>
+                            <p>- 소셜 로그인 코드 구현</p>
+                            <p>- JWT 발급</p>
                             <p>- 관리자 와 회원 구분</p>
                             <p>- 결제 및 장바구니 기능</p>
                             <p>- 찜 기능</p>
@@ -370,26 +380,31 @@
                             <li>
                             <strong><i class="fas fa-cog"></i> 개발환경 및 기술</strong>
                             <p>
-                                - Java 8, CSS3, JavaScript
+                                - Java 8, CSS3, JavaScript, Node.js (Express)
                                 <br>
                                 - SpringFramework, Spring Security, Mybatis
                                 <br>
                                 - jQuery, AJAX, Apache Maven, JSP, JSTL
                                 <br>
+                                - Linux, Docker, Jenkins CI/CD, Kubernetes, Ansible
+                                <br>
                                 - Apache Tomcat 8.5
                                 <br>
-                                - MySQL 5.7
+                                - MySQL 8.x
                                 <br>
-                                - HeidiSQL
+                                - DBeaver
                                 <br>
                                 - Eclipse
                                 <br>
-                                - Git 등
+                                - AWS EC2, AWS RDS, SVN, Git 등
                             </p>
                             
                             </li>
                             <li>
-                            <strong><i class="fab fa-github"></i> 깃허브</strong>
+                            <strong><i class="fab fa-aws"></i> AWS 배포</strong>
+                            <p><a href="https://13.125.249.221:8443/" target="_blank">- https://13.125.249.221:8443/</a></p>
+                            </li>
+                            <strong><i class="fab fa-github"></i> 깃허브 (개편전)</strong>
                             <p><a href="https://github.com/JH-1435/Hwicap.git" target="_blank">- https://github.com/JH-1435/Hwicap.git</a></p>
                             </li>
                         </li>
@@ -403,22 +418,32 @@
                             지인의 요구사항에 맞추어 제작한 프로젝트입니다.<br>
                             Spring MVC를 사용하여 RESTful API를 구현한 웹 사이트 이며 
                             주요기능으로 Oauth 소셜로그인, 장바구니 및 결제 기능, AJAX를 이용한 찜하기 기능, ckEditor5 API를 이용한 글 작성 및 파일업로드 기능, 
-                            인터셉터(Interceptor)를 활용한 로그인 세션 처리, CSRF 토큰을 이용한 보안강화 등을 
+                            인터셉터(Interceptor)를 활용한 로그인 세션 처리, JWT 발급을 통한 보안강화 등을 
                             개발하였으며 기술 스택 복기 및 실력향상 초점에 맞추어 제작하였습니다.
                             <br>
                             <br>
-                            사용자가 로그인 하면 Spring Security의 기능 CSRF 토큰을 발급하여 세션에 저장하여 보안을 강화하였고
-                            인터셉터(Interceptor)로 해당 회원 및 관리자 정보가 세션에 저장되며 회원과 관리자를 구분하였습니다.
+                            - CI/CD 프로세스: Jenkins 와 SVN 연동 -> Jenkins 빌드 -> Docker 빌드 및 Kubernetes 실행
+                            <br> 
+                            - JWT: 로그인 -> Node.js 서버를 통해 JWT 발급함
+                            <br> 
+                            - 회원가입: 회원가입 -> Node.js 서버를 통해 회원에게 가입환영 이메일 발송
                             <br>
-                            관리자는 관리자 페이지에서 유저 및 상품 관리, 문의 답변, 상품 등록 등을 할 수 있습니다.<br>
-                            회원은 로그인 및 회원가입 할 수 있으며
-                            회원은 소셜 로그인을 통하여 별도의 회원가입 없이 로그인 할 수 있고
-                            원하는 한개의 상품을 결제 하거나 장바구니 기능을 통한 여러 상품을 한꺼번에 결제할 수 있으며
-                            마이페이지 기능을 통하여 나의 구매후기 및 리뷰 작성 등을 할 수 있습니다.<br>
-                            AJAX를 사용하여 문의 게시글을 등록한 회원 과 로그인 한 회원이 일치해야 해당 문의 게시글을 볼 수 있습니다.<br>
+                            - 회원: 상품 구매 및 장바구니, 상품 찜 하기, 리뷰 작성, 문의 등을 할 수 있음
+                            <br>
+                            - 관리자: 관리자 페이지에서 유저 및 상품 관리, 문의 답변, 상품 등록 등을 할 수 있음
+                            <br>
+                            - 회원구분: 인터셉터(Interceptor)로 해당 회원 및 관리자 정보가 세션에 저장되어 회원과 관리자를 구분함
+                            <br>
+                            - 문의 글: AJAX를 사용하여, 해당 게시글을 등록한 회원과 로그인한 회원이 일치할 경우에만 조회할 수 있음
+                            <br>
                             </p>
-                            <p>소셜로그인은 SSL 인증서(보안 인증서)가 필요하여 코드만 구현된 상태이며 등록된 특정 계정만 이용가능 합니다.</p>    
+                            <p>- 소셜로그인: 도메인이 필요하여 현재 코드만 구현된 상태</p>    
                             <strong><i class="fas fa-lightbulb"></i> 기술적 고민</strong>
+                            <p>
+                                JWT 발급 구현 문제
+                                <br>
+                                - JWT 발급을 직접 구현할지, Node.js의 JWT 라이브러리를 사용할지 고민했으며, 보안과 효율성을 고려해 라이브러리 사용을 선택하여 해결
+                            </p>
                             <p>
                                 장바구니 기능 개발 당시 데이터의 일관성을 유지 시켜야 하는 문제
                                 <br>
@@ -453,7 +478,7 @@
                     <ul class="fa-ul mb-0">
                         <li class="projects-li">
                             <strong>2. Catch Me</strong><br/>
-                            <span class="projects-span">2021.04 ~ 2021.06 <strong>(3개월)</strong> [4인 팀 프로젝트]</span>
+                            <div class="projects-span">2021.04 ~ 2021.06 <strong>(3개월)</strong> [4인 팀 프로젝트]</div>
                             <li class="projects-li-2">
                             <strong><i class="fas fa-check"></i> 주요 기능</strong>
                             <p>- 개인 이력서 관리 기능</p>
@@ -491,15 +516,16 @@
                     <ul class="projects-ul">
                     <li>
                         <strong><i class="fas fa-edit"></i> 살펴보기</strong>
-                        <p><strong>캐치미 프로젝트는 기업에서 필요로 하는 맞춤 인재를 매칭할수 있는 서비스와 현재 재직 중인 재직자 및 이직을 원하는 이직희망자를 위한 이직 전문 플랫폼입니다.</strong><br> 
-                            <br>
-                            평균 근속연수가 점점 줄어들고 있는 현대사회에서 기존 구인·구직 플랫폼들은 이직자를 위한 전문적인 서비스가 갖추어져 있지 않다고 생각하여 제작하게 되었습니다.
+                        <p><strong>캐치미 프로젝트는 기업에서 필요로 하는 맞춤 인재를 매칭할수 있는 서비스와 현재 재직 중인 재직자 및 이직을 원하는 이직희망자를 위한 이직 전문 플랫폼 입니다.</strong><br> 
+                        평균 근속연수가 점점 줄어들고 있는 현대사회에서 기존 구인·구직 플랫폼들은 이직자를 위한 전문적인 서비스가 갖추어져 있지 않다고 생각하여 제작하였습니다.
                         </p>
-                        <p>저는 캐치미 팀 프로젝트에서 백앤드 파트를 담당하였으며 이직자와 기업의 처지를 생각하며 Spring MVC를 이용하여 기능들을 개발하였습니다. 
-                            <br>
-                        기업은 필터 검색 기능으로 인해 원하는 인재를 쉽게 찾을 수 있으며 이직자는 이력서를 등록하여도 익명성을 가지고 이직을 준비할 수 있도록 최소한의 정보만 기업에게 제공됩니다.
+                        <p>- 담당파트: 백앤드 파트를 담당하였으며 이직자와 기업의 처지를 생각하며 Spring MVC를 이용하여 기능들을 개발함</p>
+                        <p>
+                        - 필터검색: 기업은 필터 검색 기능으로 인해 원하는 인재를 쉽게 찾을 수 있으며 이직자는 이력서를 등록하여도 익명성을 가지고 이직을 준비할 수 있도록 최소한의 정보만 기업에게 제공됨
+                        <br>
+                        - 개인 이력서관리: 로그인한 회원이 이력서관리 기능을 통해 작성한 이력서를 관리함 
                         </p>
-                        <p>소셜로그인은 SSL 인증서(보안 인증서)가 필요하여 코드만 구현된 상태이며 등록된 특정 계정만 이용가능 합니다.</p>    
+                        <p>- 소셜로그인: 도메인이 필요하여 현재 코드만 구현된 상태</p>       
                         <strong><i class="fas fa-lightbulb"></i> 기술적 고민</strong>
                         <p>
                             이력서 파일 업로드 기능 구현 당시 여러 이력서 파일 업로드에 대한 처리
@@ -509,7 +535,7 @@
                     </li>
                     </ul>
                 </div>
-                <!-- Swiper Slide -->
+                <!-- Swiper Slide
                 <div class="projects-img">
                     <div class="swiper-container mySwiper">
                         <div class="swiper-wrapper">
@@ -526,12 +552,14 @@
                          <div class="swiper-button-prev"></div>
                          <div class="swiper-pagination"></div>
                     </div>
-                <!-- Swiper Slide -->
+                 -->    
+                <!-- Swiper Slide
                     <p class="copylight">본 사이트는 상업용 사이트가 아니며, 취업용 포트폴리오 목적으로 만들었습니다. 
                         참고 사이트: 대전광역시 동물보호센터
                     </p>
                 </div>
-                <!--Projects_4-->
+                -->
+                <!--Projects_4
                 <div class="about-2">
                     <ul class="fa-ul mb-0">
                         <li class="projects-li">
@@ -592,6 +620,7 @@
                     </ul>
                 </div>
             </div>
+            -->
             </section>
             <!-- CONTACT -->
             <hr class="m-0" />    
